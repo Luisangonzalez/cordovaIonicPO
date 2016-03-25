@@ -1,0 +1,10 @@
+<ion-view title="Dialogs" ng-controller="DialogsCtrl as vm" >
+	<ion-content>
+    <h2>{{vm.hello}}</h2>
+		<button class="button button-full button-balanced" ng-click="vm.alert()">Alert</button>
+		<button class="button button-full button-balanced" ng-click="vm.confirm()">Confirm</button>
+		<button class="button button-full button-balanced" ng-click="vm.prompt()">Prompt</button>
+		<button class="button button-full button-balanced" ng-click="vm.beep()">Beep</button>
+		<button class="button button-full button-balanced" ng-click="vm.vibrate()">Vibrate</button>
+  </ion-content>
+</ion-view>
